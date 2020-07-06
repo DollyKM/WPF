@@ -1,0 +1,135 @@
+<!--Login.xaml-->
+
+Title="Login" Height="450" Width="380"
+        AllowsTransparency="True"
+        Background="Transparent"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        MouseDown="Window_MouseDown"
+
+  <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Border CornerRadius="10" Grid.RowSpan="2">
+                <Border.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#7BE9F6" Offset="0.0"/>
+                        <GradientStop Color="#F083DA" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+            <StackPanel HorizontalAlignment="Center">
+                <Image Source="C:\Users\Dolly\source\WPF\ThemesTest\ThemesTest\Image\tasksheetlogo.png" Width="80">
+                </Image>
+                <TextBlock FontWeight="Light"
+                           Text="Modern Design"
+                           FontFamily="helvetica"
+                           FontSize="22"
+                           HorizontalAlignment="Center"
+                           Foreground="White"></TextBlock>
+                
+            </StackPanel>
+            <StackPanel Grid.Row="1">
+                <StackPanel Orientation="Horizontal">
+                    <TextBox FontFamily="helvetica"
+                             FontWeight="Light"
+                             Text="Username"
+                             HorizontalAlignment="Center"
+                             BorderThickness="0"
+                             FontSize="20"
+                             Foreground="White"
+                             Background="Transparent"
+                             HorizontalContentAlignment="Left"
+                             Opacity="0.5"
+                             Height="25"
+                             Width="235"
+                             Margin="63,0,0,0"/>
+                    
+                    <IconPacks:PackIconMaterial Kind="Account" 
+                                                VerticalAlignment="Center"
+                                                HorizontalAlignment="Center"
+                                                Foreground="White"/>
+                </StackPanel>
+                <Border Width="250"
+                        Height="2"
+                        Background="White">
+
+                </Border>
+
+                <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                    <PasswordBox FontFamily="helvetica"
+                             FontWeight="Light"
+                             Password="Password"
+                             HorizontalAlignment="Center"
+                             BorderThickness="0"
+                             FontSize="20"
+                             Foreground="White"
+                             Background="Transparent"
+                             HorizontalContentAlignment="Left"
+                             Opacity="0.5"
+                             Height="25"
+                             Width="235"
+                             Margin="63,0,0,0"/>
+                    
+                    <IconPacks:PackIconMaterial Kind="FormTextboxPassword" 
+                                                VerticalAlignment="Center"
+                                                HorizontalAlignment="Center"
+                                                Foreground="White"/>
+                    
+                </StackPanel>
+                <Border Width="250"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.5"/>
+
+
+                <StackPanel Orientation="Horizontal" Margin="0,40,0,0">
+                    <Button Width="100" Height="30" Content="LOGIN"  Margin="60,0,0,0"/>
+                    <Button Width="100" Height="30" Content="REGISTER"  Margin="60,0,60,0"/>
+                </StackPanel>
+            </StackPanel>
+            
+           
+        </Grid>
+
+<!--ButtonTheme.xaml-->
+
+ <Style TargetType="Button">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontFamily" Value="Helvetica"/>
+        <Setter Property="FontWeight" Value="Light"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" CornerRadius="20"
+                                                                      BorderThickness="2"
+                                                                      BorderBrush="White">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="true">
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="Opacity" Value="0.4"/>
+                <Setter Property="Foreground" Value="DeepSkyBlue"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    
+
+<App.xaml>
+
+<ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ButtonTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+MahApp.Metro.IconPacks
