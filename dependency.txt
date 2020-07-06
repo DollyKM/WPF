@@ -1,0 +1,35 @@
+
+
+            DispatcherTimer timer = new DispatcherTimer(TimeSpan.FromSeconds(1), DispatcherPriority.Normal,
+                                                      delegate
+                                                      {
+                                                          int newVal = 0;
+
+                                                          if (counter == int.MaxValue)
+                                                          {
+                                                              newVal = 0;
+                                                          }
+                                                          else
+                                                          {
+                                                              newVal = counter + 1;
+                                                          }
+                                                          SetValue(counterProperty, newVal);
+                                                      }, Dispatcher);
+        }
+
+
+        //clr property
+        //wrapper
+        public int counter
+        {
+            get { return (int)GetValue(counterProperty); }
+            set { SetValue(counterProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for counter.  This enables animation, styling, binding, etc...
+        //variable
+        public static readonly DependencyProperty counterProperty =
+            DependencyProperty.Register("counter", typeof(int), typeof(MainWindow), new PropertyMetadata(0));
+
+
+<TextBlock Text="{Binding ElementName=MainWindow,Path=Counter}"/>
