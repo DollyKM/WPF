@@ -1,0 +1,13 @@
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\bin\Debug\CustomCommandsDemo.exe
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\bin\Debug\CustomCommandsDemo.pdb
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\obj\x86\Debug\MainWindow.baml
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\obj\x86\Debug\App.g.cs
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\obj\x86\Debug\CustomCommandsDemo_MarkupCompile.cache
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\obj\x86\Debug\CustomCommandsDemo.g.resources
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\obj\x86\Debug\CustomCommandsDemo.Properties.Resources.resources
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\obj\x86\Debug\CustomCommandsDemo.csproj.GenerateResource.cache
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\obj\x86\Debug\CustomCommandsDemo.csproj.CoreCompileInputs.cache
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\obj\x86\Debug\CustomCommandsDemo.exe
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\obj\x86\Debug\CustomCommandsDemo.pdb
+C:\Users\Dolly\Documents\Code\CustomCommandsDemo\CustomCommandsDemo\CustomCommandsDemo\obj\x86\Debug\CustomCommandsDemo.csprojAssemblyReference.cache
