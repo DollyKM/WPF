@@ -1,0 +1,266 @@
+<UserControl x:Class="Icons.NotificationIcons.BulbIcon"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Icons.NotificationIcons"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid RenderTransformOrigin="0.558,0.513">
+        <!--bulb-->
+        <Path Width="25.3333" 
+              Height="42.75" 
+              Canvas.Left="25.3333" 
+              Canvas.Top="17.4167" 
+              Stretch="Fill" 
+              Fill="Transparent" 
+              StrokeThickness="3"
+              Stroke="Gray"
+              Data="
+              F1 M 22.8333,
+              
+              50 Z M 49,
+              48L 28,   
+              48L 28,
+              50L 49,
+              
+              50 Z M 38,
+              
+              17.4167C 49,
+              17.4167 54.900,
+              23.4422 54.900,
+              
+              30.875C 54.900
+              35.8565 54.900,
+              40.7324 54.900,
+              
+              42.5329L 54.900,    
+              47.5L 21,
+              47.5L 21, 
+              42.5329L 21,
+           
+              30.875C 21,             
+              23.4422 25,
+              17.4167 38,
+              
+              17.4167 Z   " RenderTransformOrigin="0.579,0.515" Margin="387.833,204.875,386.833,202.375"/>
+        <Polygon Points="0 0,0 4,10 4,10 0" StrokeThickness="20" Fill="Gray" Margin="419,212,361,218" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-13.571"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Points="0 0,0 4,10 4,10 0" StrokeThickness="20" Fill="Gray" Margin="416,230,364,200" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="17.816"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Points="0 0,0 4,10 4,10 0" StrokeThickness="20" Fill="Gray" Margin="411,190,369,240" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-47.371"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Points="0 0,0 4,10 4,10 0" StrokeThickness="20" Fill="Gray" Margin="384,179,396,251" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-123.828"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Points="0 0,0 4,10 4,10 0" StrokeThickness="20" Fill="Gray" Margin="366,194,414,236" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-160.751"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Points="0 0,0 4,10 4,10 0" StrokeThickness="20" Fill="Gray" Margin="361,214,419,216" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-191.107"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+
+        <!--bulb end-->
+        <!--bulb 2-->
+        <Path Width="25.3333" 
+              Height="42.75" 
+              Canvas.Left="25.3333" 
+              Canvas.Top="17.4167" 
+              Stretch="Fill" 
+              Fill="Transparent" 
+              StrokeThickness="3"
+              Stroke="Gray"
+              Data="
+              F1 M 22.8333,
+              
+              50 Z M 38,
+              
+              17.4167C 49,
+              17.4167 54.900,
+              23.4422 54.900,
+              
+              30.875C 54.900
+              35.8565 54.900,
+              40 54.900,
+              
+              40.5L 54.900,    
+              40.513L 54.00,  
+              40.5L 21, 
+              40.5L 21
+          
+           
+              30.875C 21,             
+              23.4422 25,
+              17.4167 38,
+              
+              17.4167 Z   " RenderTransformOrigin="3.322,0.585" Margin="495.833,203.875,278.833,203.375"/>
+        <Polygon Points="0 0,0 4,10 4,10 0" StrokeThickness="20" Fill="Gray" Margin="527,211,253,219" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-13.571"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Points="0 0,0 4,10 4,10 0" StrokeThickness="20" Fill="Gray" Margin="524,229,256,201" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="17.816"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Points="0 0,0 4,10 4,10 0" StrokeThickness="20" Fill="Gray" Margin="519,189,261,241" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-47.371"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Points="0 0,0 4,10 4,10 0" StrokeThickness="20" Fill="Gray" Margin="492,178,288,252" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-123.828"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Points="0 0,0 4,10 4,10 0" StrokeThickness="20" Fill="Gray" Margin="474,193,306,237" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-160.751"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Points="0 0,0 4,10 4,10 0" StrokeThickness="20" Fill="Gray" Margin="469,213,311,217" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-191.107"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+
+        <Polygon Points="0 0,0 4,12 4,12 40,0 40,0 44,15 44,15 0" StrokeThickness="2" Fill="Gray" Margin="494,201,260,187" RenderTransformOrigin="0.5,0.5">
+            <Polygon.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Polygon.RenderTransform>
+        </Polygon>
+        <Polygon Points="0 0,0 22,4 22,4 0" StrokeThickness="2" Fill="Gray" Margin="506,233,289,195"/>
+        <!--bulb 2 end-->
+
+        <!--user-->
+
+        <Path Width="80" Height="60"  Stretch="Fill" Fill="Transparent" Stroke="Gray" StrokeThickness="2" 
+              Data="F1 M 23.75,
+              22.1667L 52.25,
+              
+              22.1667C 55.7478,
+              22.1667 58.5833,
+              25.0022 58.5833
+              
+              28.5L 58.5833,
+              
+              47.5C 58.5833,
+              50.9978 55.7478,
+              53.8333 52.25,
+
+              53.8333L 23.75,
+              
+              53.8333C 20.2522,
+              53.8333 17.4167,
+              50.9978 17.4167,
+              
+              47.5L 17.4167,
+              
+              28.5C 17.4167,
+              25.0022 20.2522,
+              22.1667 23.75,
+              
+              22.1667 Z M 57,
+
+              42.75 Z M 20.5833,
+              
+             25.3333 Z " Margin="546.041,194.541,173.959,0" VerticalAlignment="Top"/>
+
+        <Path Canvas.Left="19" Canvas.Top="21.0001" Stretch="Fill" Fill="Gray" 
+              Data="F1 M 30,
+             
+              51 Z M 42.9999,21.0001L 37,55L 33,55L 39,21.0001L 42.9999,21.0001 Z M 46,40L 46,51 Z " Margin="568.25,198.958,198.75,199.917" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="15.285"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <!--user end-->
+
+    </Grid>
+</UserControl>
